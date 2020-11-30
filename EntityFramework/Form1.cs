@@ -11,7 +11,7 @@ namespace EntityFramework
         List<Student> listDgrv;
         BindingSource bindingSource;
         public Form1()
-        {
+        { 
             InitializeComponent();
             bindingSource = new BindingSource();
             LoadData();
