@@ -25,7 +25,7 @@ namespace EntityFramework
 
             //var result =db.Students;
             var result = from s in db.Students select new { s.Id, s.Name, s.Address, s.Score, s.Id_class };
-            dtgvdata.DataSource = result.ToList();
+            dtgvdata.DataSource = result.ToList();  
 
 
         }
